@@ -5,13 +5,14 @@ region) contain information about orders where each row is uniquely identified b
 ID”. Returns table contains items order ids that are returned. Users table shows manager names
 for each region of the United States. The goal of following tasks is to perform business analysis
 of the store.
-SQL
+**SQL**
 1. Importing Data
 ● Create a database in SQL.
 ● Import data into a database with appropriate table names, column names and
 datatypes. Define fitting primary and foreign keys.
 ● Round columns “Discount”, “Unit Price”, “Shipping Cost”, “Product Base Margin”,
 “Profit” and “Sales” up to 2 decimal places in orders tables.
+
 2. Queries
 ● Find the top 3 customers who have the highest total sales in an east region,
 along with their total profit and the number of orders placed.
@@ -24,13 +25,15 @@ average of sales.
 best-selling subcategories.
 ● Assign rank to each manager by total profits.
 ● Find which product subcategory is returned the most times.
+
 3. Views
 ● Create a view that combines orders from all regions.
 ● Create a view that combines previously created orders view with returns and
 users.
 ● Create a view that shows customer id’s, customer names and their total
 discounts, total profits and total sales. Sort table by total sales descending.
-BI
+
+**BI**
 Import data from SQL. Report should contain following pages:
 1. Overview
 ● On the top 4 cards that contain information about how many unique orders and
@@ -45,6 +48,7 @@ counts of a specific category, the bar chart should show only the counts of that
 category subcategories. Tooltips should contain information about product
 category, count of product category and total profits. On each bar there should be
 a data label, more specifically count values.
+
 2. Distribution Map
 ● Format “Postal Code” column. Postal codes in the USA are in 5 digit format.
 ● Whole page should be a map with information about the amount of sales by state
@@ -56,6 +60,7 @@ display distribution in that state or province by city and when city is selected
 map should display distribution in that city by postal code. Show only cities and
 postal codes in the United States (There can be cities with same names and
 postal codes with same values in the rest of the world).
+
 3. Table
 ● Table needs to contain the following columns: “Customer ID”, “Customer Name”,
 “Order Priority”, “Product Category”, “Product Sub-Category”, “State or Province”,
@@ -66,6 +71,7 @@ the table “Sales” and “Profit” columns should contain totals for sales a
 ● We should incorporate the following slicers: “Order Priority”, “Product Category”,
 “State or Province and City”, and “Order Date”. First 3 slicers should be
 dropdown slicers. “Order Date” slicer should be designed to pick a date interval.
+
 4. Analysis of Sales by Product Category and Sub-Category
 ● This page should contain the following visuals: decomposition tree, pie chart,
 slicer and Q&A visual.
@@ -75,6 +81,7 @@ descending.
 ● Pie chart should represent counts and percentages by order priority.
 ● Slicer should contain state or province tiles so the page could be filtered by it.
 ● Q&A visual should show information about unique orders by city.
+
 5. Delivery Analysis
 ● This page should provide insights about the time difference between orders and
 shipping dates.
@@ -92,6 +99,7 @@ date by order priority.
 ○ Maximum shipping cost
 ○ Minimum shipping cost
 ● Slicers: filtering by month and state or province and by manager.
+
 6. Profit Change
 ● This page should contain the following visuals: ribbon chart, matrix and slicer.
 ● Slicer to filter page by state or province.
@@ -100,9 +108,11 @@ date by order priority.
 orders and profit by column. Add total by column.
 ● Make sure that ribbon chart filters the matrix but the matrix does not filter the
 ribbon chart.
+
 7. Analysis of your own choice
 ● Research data and perform analysis on your own.
-Python
+
+**Python**
 1. Preprocessing and Dataframe Manipulation
 ● Read data from SQL.
 ● Check if there are any null values. If there are any, replace null values with
@@ -121,10 +131,13 @@ Cost” and “Days Between Order and Ship Date” and totals of “Profit” an
 by “Order Priority”, “Customer Segment”, “Product Category”, “Product
 Sub-Category” and “State or Province”. Rename each column accordingly, round
 values and export each table in csv format to an arbitrary location.
+
 2. Exploratory Data Analysis and Visualization
 ● Think about what visuals can give us useful information about our dataset, plot
 them and write short conclusions for each of them.
+
 Extra Tasks
+
 1. Animation
 ● Plot animated bar chart race which displays top 10 states by cumulative sum of
 sales between the largest time period in data per date.
