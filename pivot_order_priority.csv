@@ -1,0 +1,6 @@
+Order_Priority,Average Discount,Average Shipping Cost,Average Days Between Order and Ship Date,Total Profit,Total Sales
+Critical,1.41,0.04,38293.49,441409.38,13.1
+High,1.35,0.04,36500.45,310095.48,13.32
+Low,4.05,0.05,35414.93,379127.34,13.83
+Medium,1.41,0.04,43370.15,370078.81,12.69
+Not Specified,1.42,0.04,70486.41,420026.22,11.9

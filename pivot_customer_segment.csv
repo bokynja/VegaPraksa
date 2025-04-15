@@ -1,0 +1,5 @@
+Customer_Segment,Average Discount,Average Shipping Cost,Average Days Between Order and Ship Date,Total Profit,Total Sales
+Consumer,1.97,0.05,62753.41,448837.6,12.68
+Corporate,1.89,0.04,52959.13,668820.17,12.56
+Home Office,2.0,0.04,47941.06,420020.51,12.22
+Small Business,1.93,0.04,60411.83,383058.95,15.0

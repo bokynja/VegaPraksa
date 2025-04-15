@@ -1,0 +1,7 @@
+Feature 1,Feature 2,Correlation
+Unit Price,Sales,0.4435618496509322
+Profit,Sales,0.3644031334441645
+Shipping Cost,Product Base Margin,0.3619320762123044
+Unit Price,Profit,-0.18206248329824856
+Unit Price,Quantity ordered new,-0.07253004707453062
+Discount,Profit,-0.06181996137526039
